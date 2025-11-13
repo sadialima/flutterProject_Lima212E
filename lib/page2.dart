@@ -52,7 +52,7 @@ class Page2 extends StatelessWidget {
                   color: Colors.brown.shade900,
                 ),
               ),
-              //Divider(),
+              Divider(),
               // Text(
               //   "Things We will learn:",
               //   style: GoogleFonts.roboto(
@@ -128,7 +128,7 @@ class Page2 extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 10),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
