@@ -52,7 +52,7 @@ class Page2 extends StatelessWidget {
                   color: Colors.brown.shade900,
                 ),
               ),
-              Divider(),
+              //Divider(),
               // Text(
               //   "Things We will learn:",
               //   style: GoogleFonts.roboto(
@@ -62,9 +62,9 @@ class Page2 extends StatelessWidget {
               // ),
               Container(
                 width: 300,
-                height: 300,
-                margin: EdgeInsets.all(20),
-                padding: EdgeInsets.all(40),
+                height: 280,
+                margin: EdgeInsets.all(10),
+                padding: EdgeInsets.all(30),
                 // alignment: Alignment.center,
                 decoration: BoxDecoration(
                   color: Colors.brown.shade400,
@@ -80,6 +80,7 @@ class Page2 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text("This is a Container",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
                       Text("*Container"),
                       Text("*Decoration"),
                       Text("*Alignment"),
@@ -91,7 +92,7 @@ class Page2 extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 200,
+                height: 280,
                 width: 300,
                 child: Card(
                   color: Colors.brown.shade500,
@@ -113,6 +114,7 @@ class Page2 extends StatelessWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
+                              Text("This is a Sized box",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
                               Text("*Sized box"),
                               Text("*card"),
                               Text("*padding"),
