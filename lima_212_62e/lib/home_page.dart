@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lima_212_62e/container_page.dart';
+import 'package:lima_212_62e/converter.dart';
 import 'package:lima_212_62e/form_page.dart';
 
 class HomePage1 extends StatelessWidget {
@@ -83,6 +84,17 @@ class HomePage1 extends StatelessWidget {
             title: Text("Form"),
           ),
           Divider(),
+          
+          ListTile(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Converter()),
+              );
+            },
+            title: Text("Converter"),
+          ),
+          Divider()
         ],
       ),
       floatingActionButton: FloatingActionButton(
